@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java3</title>
+</head>
+<body>
+    <label>Veuillez saisir un nombre positif</label><br><input type="number" placeholder="ex2" id="num"><br>
+    <label>Resultat</label><br><input type="number" disabled="disabled" id="prod"><br>
+    <br>
+    <button onclick="Produit()">Produit</button>
+</body>
+</html>
+<script>
+    function Produit(){
+        var num = Number(document.getElementById("num").value);
+    document.getElementById("prod").value= num*7;
+    }
+    
+</script>

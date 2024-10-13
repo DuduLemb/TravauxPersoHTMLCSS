@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+  }
+  
+footer p {
+    font-size: 14px;
+    color: white;
+}
+    
+header{
+    height: 100vh;
+    background-size: cover;
+    background-position:center ;
+}
+#liste{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+#liste li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+#liste li a:hover{
+    background: #fff;
+    color: #000;
+}
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.titre h1{
+    color: #fff;
+    font-size: 20px;
+}
+section{
+    margin-bottom: 30px;
+}
+h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent ;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+p{
+    margin-bottom: 15px;
+}
+body{
+    color: #fff;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),  url(img/plat1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0;
+
+}

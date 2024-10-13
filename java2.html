@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java2</title>
+</head>
+<body>
+    <label>Veuillez Saisir un nombre </label><br><input type="number" id="num" placeholder="ex 2"><br>
+    <br>
+    <button onclick=" Positif()">Valider</button>
+    <script>
+        function Positif(){
+            var num = Number(document.getElementById("num").value);
+            while(num < 0){
+                num=prompt("Veuiller saisir un nombre");
+            }
+            if(num >= 0){
+                document.write("Merci");
+
+                
+            }
+        }
+    </script>
+</body>
+</html>
+
+    
+        
+        
+    

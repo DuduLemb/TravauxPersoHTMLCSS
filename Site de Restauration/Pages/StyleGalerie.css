@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/hp-our-speciality-banner.jpg);
+    height: 85vh;
+    background-size: cover;
+    background-position:center ;
+}
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+.titre{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.titre h1{
+    color: #fff;
+    font-size: 20px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+nav li {
+    float: left;
+}
+.menu-item h3 {
+    margin-top: 10px;
+    color: white;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+  
+
+  
+section {
+    padding: 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+#Extérieur{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/equipe5.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+#Tables{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/equipe6.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+#Bar{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/equipe7.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+#Cuisine{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/equipe8.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+#Toilette{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/equipe9.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+h2{
+    text-align: center;
+    color:white;
+}
+  
+.menu-item {
+    margin-bottom: 20px;
+}
+  
+.menu-item img {
+    max-height: 200px;
+    object-fit: cover;
+}
+#ig{
+    width: 600px;
+    height: 300;
+}
